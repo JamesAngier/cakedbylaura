@@ -13,11 +13,15 @@
 
 .navLinks {
   grid-area: pages;
+  color: #5f214f;
   justify-self: end;
   align-self: center;
 }
 
 .navLinks a {
+  font-family: adobe-garamond-pro;
+  font-weight: 400;
+  font-size: 18px;
   color: inherit;
   text-decoration: inherit;
   margin-right: 20px;
