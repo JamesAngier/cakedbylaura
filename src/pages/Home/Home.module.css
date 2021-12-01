@@ -36,7 +36,7 @@
 }
 
 .brandBtn {
-  background-color: #ffd6d7;
+  background-color: #ffd6d7 !important;
   height: 65px;
   width: 190px;
   font-family: orpheus-pro;

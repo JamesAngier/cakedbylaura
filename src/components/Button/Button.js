@@ -17,7 +17,7 @@ function Button(props) {
   }
   return (
     <button type={props.type} className={clsx(styles.button, props.className)}>
-      <span className={clsx(styles.content)}>{props.children}asdasdads</span>
+      <span className={clsx(styles.content)}>{props.children}</span>
     </button>
   );
 }
