@@ -1,33 +1,10 @@
 .button {
   background: none;
-  font-weight: var(--fontWeightSemiBold);
   border: 0.1rem solid transparent;
-  user-select: none;
   position: relative;
   font-size: inherit;
-  transition: transform 0.2s ease, background-color 0.2s ease;
-  transition-delay: 0.15s;
   background-color: white;
   color: black;
-
-  &:active {
-    transition: transform 0.2s ease, background-color 0s ease;
-    transition-delay: 0s;
-    transform: scale(1.02);
-    background-color: black;
-    color: white;
-  }
-
-  &:disabled {
-    border: none;
-    background-color: grey;
-    color: white;
-    opacity: 0.6;
-  }
-
-  &:not(:disabled) {
-    cursor: pointer;
-  }
 }
 
 .anchor {

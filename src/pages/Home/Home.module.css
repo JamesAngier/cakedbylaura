@@ -44,3 +44,7 @@
   font-style: normal;
   text-transform: none;
 }
+
+.brandBtn :hover {
+  background-color: rgba(204, 163, 164, 0.329);
+}
