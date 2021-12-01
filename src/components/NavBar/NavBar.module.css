@@ -1,0 +1,33 @@
+.navContainer {
+  background-color: #f6e9f2;
+  height: auto;
+  padding: 29px 58px;
+  display: grid;
+  grid-template-columns: 220px auto 140px;
+  grid-template-areas: 'logo pages social';
+}
+
+.navLogo {
+  grid-area: logo;
+}
+
+.navLinks {
+  grid-area: pages;
+  justify-self: end;
+  align-self: center;
+}
+
+.navLinks a {
+  color: inherit;
+  text-decoration: inherit;
+  margin-right: 20px;
+}
+
+.navSocial {
+  grid-area: social;
+  align-self: center;
+}
+
+.navSocial a {
+  margin-left: 18px;
+}
