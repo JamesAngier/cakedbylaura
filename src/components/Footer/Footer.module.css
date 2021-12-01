@@ -1,0 +1,58 @@
+.footerContainer {
+  padding: 48px 58px;
+  background-color: #ffd6d7;
+  display: grid;
+}
+
+.aboutMe {
+}
+
+.aboutMe h3 {
+  font-family: orpheus-pro;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  font-size: 32px;
+}
+
+.aboutMe p {
+  font-family: adobe-garamond-pro;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  font-size: 22px;
+}
+
+.location {
+  font-family: adobe-garamond-pro;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.orderBtn {
+  justify-self: center;
+  background-color: black !important;
+  color: #ffd6d7 !important;
+  height: 65px;
+  width: 190px;
+  font-family: orpheus-pro;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: none;
+}
+
+.divider {
+  width: 35%;
+  height: 1px;
+  background-color: black;
+}
+
+.navSocial a {
+  margin-right: 15px;
+}
