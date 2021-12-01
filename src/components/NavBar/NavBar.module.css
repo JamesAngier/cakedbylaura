@@ -19,12 +19,26 @@
 }
 
 .navLinks a {
+  display: inline-block;
   font-family: adobe-garamond-pro;
   font-weight: 400;
   font-size: 18px;
   color: inherit;
   text-decoration: inherit;
   margin-right: 20px;
+  height: 35px;
+  line-height: 35px;
+}
+
+.navLinkActive {
+  background-repeat: repeat-x;
+  background-image: linear-gradient(
+    to right,
+    currentColor 100%,
+    currentColor 0
+  );
+  background-size: 1px 1px;
+  background-position: 0 calc(100% - 0.1em);
 }
 
 .navSocial {
