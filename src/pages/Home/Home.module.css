@@ -30,7 +30,17 @@
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 20%;
+  top: 15%;
   text-align: center;
   width: 70%;
+}
+
+.brandBtn {
+  background-color: #ffd6d7;
+  height: 65px;
+  width: 190px;
+  font-family: orpheus-pro;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: none;
 }

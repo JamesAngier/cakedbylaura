@@ -1,6 +1,6 @@
 import styles from './Home.module.css';
 import cake1 from '../../assets/cake1.jpeg';
-import { Link } from 'react-router-dom';
+import Button from '../../components/Button/Button';
 
 function Home() {
   return (
@@ -14,9 +14,9 @@ function Home() {
             your next celebration! First let me introduce the face behind the
             cakes!
           </h3>
-          <button>
-            <Link to="/behindthebrand">Behind the Brand</Link>
-          </button>
+          <Button className={styles.brandBtn} to={'/behindthebrand'}>
+            Behind the Brand
+          </Button>
         </div>
       </div>
     </div>
